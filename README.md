@@ -5,7 +5,11 @@
 
 A Streamlit-based AI system that personalizes web content around user-defined interests (e.g., "Chess") while filtering toxic/distracting content. Built for SlateMate's FocusSphere initiative.
 
-![Demo Screenshot](https://via.placeholder.com/800x400?text=App+Demo+Screenshot+Here)
+![Demo Screenshot](![image](https://github.com/user-attachments/assets/15518da6-975d-46bf-8a69-6d41cb604845)
+
+![image](https://github.com/user-attachments/assets/c2a27b3a-ee5d-4fd8-95d0-be12f8e6609c)
+
+)
 
 ## ✨ Features
 - 🔍 **Interest-Based Filtering**: Prioritizes content using BERT embeddings
