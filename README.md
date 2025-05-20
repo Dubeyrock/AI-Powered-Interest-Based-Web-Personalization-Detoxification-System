@@ -5,11 +5,6 @@
 
 A Streamlit-based AI system that personalizes web content around user-defined interests (e.g., "Chess") while filtering toxic/distracting content. Built for SlateMate's FocusSphere initiative.
 
-![Demo Screenshot](![image](https://github.com/user-attachments/assets/15518da6-975d-46bf-8a69-6d41cb604845)
-
-![image](https://github.com/user-attachments/assets/c2a27b3a-ee5d-4fd8-95d0-be12f8e6609c)
-
-)
 
 ## ✨ Features
 - 🔍 **Interest-Based Filtering**: Prioritizes content using BERT embeddings
@@ -34,18 +29,12 @@ Example Output:
 ❌ Try Not to Laugh Challenge | Reason: Low relevance
 
 
-📂 Project Structure
+## demo screenshot
+[image](https://github.com/user-attachments/assets/15518da6-975d-46bf-8a69-6d41cb604845)
 
-AI-Powered-Interest-Based-Web-Personalization-Detoxification-System/
-├── App/
-│   └── app.py                # Streamlit UI and core logic
-├── Data/
-│   ├── slatemate_interest_feed_dataset.csv  # Sample dataset
-│   ├── simulated_feed.json   # Simulated content
-│   └── simulated_content.py  # Content generator
-├── .gitignore
-├── Requirements.txt          # Python dependencies
-└── README.md
+![image](https://github.com/user-attachments/assets/c2a27b3a-ee5d-4fd8-95d0-be12f8e6609c)
+
+
 
 🙏 Acknowledgments
 
