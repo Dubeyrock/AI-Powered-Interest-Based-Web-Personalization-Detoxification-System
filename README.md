@@ -14,8 +14,44 @@ A Streamlit-based AI system that personalizes web content around user-defined in
 - 🎯 **Real-Time Feed**: Simulated YouTube/Instagram/Reddit content
 - 📱 **Streamlit UI**: User-friendly interface for students
 
-## 🛠️ Installation
-1. Clone the repository:
-```bash
-git clone https://github.com/Dubeyrock/AI-Powered-Interest-Based-Web-Personalization-Detoxification-System.git
-cd AI-Powered-Interest-Based-Web-Personalization-Detoxification-System
+🖥️ Usage
+In the browser:
+
+Enter your interest (e.g., "Chess")
+
+Click Generate Safe Feed
+
+View recommendations + blocked content
+
+Example Output:
+
+✅ Top 10 Chess Openings (YouTube) | Score: 92.3
+✅ Chess Puzzle of the Day (Reddit) | Score: 94.5
+❌ Try Not to Laugh Challenge | Reason: Low relevance
+
+
+📂 Project Structure
+
+AI-Powered-Interest-Based-Web-Personalization-Detoxification-System/
+├── App/
+│   └── app.py                # Streamlit UI and core logic
+├── Data/
+│   ├── slatemate_interest_feed_dataset.csv  # Sample dataset
+│   ├── simulated_feed.json   # Simulated content
+│   └── simulated_content.py  # Content generator
+├── .gitignore
+├── Requirements.txt          # Python dependencies
+└── README.md
+
+🙏 Acknowledgments
+
+---
+
+### Key Elements Added:
+1. **Badges**: License + Python version indicators
+2. **Visual Hierarchy**: Emojis + headers for scannability
+3. **Code Blocks**: Ready-to-copy installation/usage commands
+4. **File Structure Map**: Clear directory explanation
+5. **Contributing Guide**: Standard open-source workflow
+6. **Placeholder Image**: Add actual screenshot later
+
