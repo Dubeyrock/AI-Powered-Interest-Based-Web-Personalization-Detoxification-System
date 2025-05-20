@@ -1,0 +1,9 @@
+streamlit
+sentence-transformers
+detoxify
+numpy
+scikit-learn
+plotly
+faker
+pytest
+python-dotenv
