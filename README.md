@@ -30,7 +30,8 @@ Example Output:
 
 
 ## demo screenshot
-[image](https://github.com/user-attachments/assets/15518da6-975d-46bf-8a69-6d41cb604845)
+![image](https://github.com/user-attachments/assets/4e2d5bff-faf7-44be-8b6a-f878c8bc5f37)
+
 
 ![image](https://github.com/user-attachments/assets/c2a27b3a-ee5d-4fd8-95d0-be12f8e6609c)
 
