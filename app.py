@@ -55,6 +55,30 @@ content_feed = df.to_dict('records')
 
 st.title("🚀 AI-Powered Interest-Based Web Personalization & Detoxification System")
 user_interest = st.text_input("Enter Interest (e.g. Chess):", "Chess")
+st.sidebar.title("ℹ️ About SlateMate")
+st.sidebar.markdown("""
+SlateMate is an AI-powered web detoxification and personalization system designed to help students focus on their interests while filtering out irrelevant or unsafe content.
+
+Built using NLP, content similarity, and emotional safety metrics, it customizes the digital experience to align with a student’s passion — like Chess, Space, or Biology — and blocks distractions.
+""")
+
+st.sidebar.title("🛠 Features")
+st.sidebar.markdown("""
+
+Accepts user-defined interest (e.g., Chess).
+
+Simulates and processes content from YouTube, Instagram, Reddit, etc.
+
+Uses Sentence Transformers for interest-content similarity.
+
+Evaluates emotional safety via toxicity scores.
+
+Combines relevance and safety into a Well-being Score.
+
+Returns a detoxified and re-ranked personalized feed.
+""")
+
+
 
 if st.button("Generate Feed"):
     result = generate_safe_feed(user_interest, content_feed)
@@ -66,3 +90,9 @@ if st.button("Generate Feed"):
     st.subheader("Blocked Content:")
     for item in result['blocked_content']:
         st.markdown(f"❌ ~~{item['title']}~~ ({item['reason']})")
+
+
+
+🎁 Bonus: You can also add a small “Built by” credit in the sidebar:
+
+st.sidebar.markdown("👨‍💻 Built by Shivam Dubey")
