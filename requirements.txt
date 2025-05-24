@@ -7,3 +7,7 @@ plotly
 faker
 pytest
 python-dotenv
+markdown-it-py
+mdurl
+pygments
+rich
