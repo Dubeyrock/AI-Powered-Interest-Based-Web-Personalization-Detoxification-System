@@ -53,7 +53,7 @@ def generate_safe_feed(user_interest, content_feed, relevance_threshold=0.3, tox
 df = pd.read_csv(r"slatemate_interest_feed_dataset.csv")
 content_feed = df.to_dict('records')
 
-st.title("AI-Powered Content Filter")
+st.title("🚀 AI-Powered Interest-Based Web Personalization & Detoxification System")
 user_interest = st.text_input("Enter Interest (e.g. Chess):", "Chess")
 
 if st.button("Generate Feed"):
