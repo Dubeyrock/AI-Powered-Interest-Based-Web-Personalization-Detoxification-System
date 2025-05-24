@@ -3,6 +3,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 
+
+## flowchart
+
+
+![deepseek_mermaid_20250524_c93d6f](https://github.com/user-attachments/assets/eefb7d4c-3d9b-42d7-9a1c-c49714b18582)
+
+
 A Streamlit-based AI system that personalizes web content around user-defined interests (e.g., "Chess") while filtering toxic/distracting content. Built for SlateMate's FocusSphere initiative.
 
 
